@@ -90,6 +90,7 @@ function onProfileClick(e) {
                     ]"/>
 
                 <NavLink to="/wiki/Home" text="Wiki" icon="book"/>
+                <NavLink to="/score/scoreset" text="Wiki" icon="book"/>
             </div>
             <div class="nav-user">
                 <div class="icon" onclick="openSearchOverlay()">

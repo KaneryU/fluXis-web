@@ -9,6 +9,11 @@ const router = createRouter({
       component: () => import('../views/HomeView.vue')
     },
     {
+      path: '/score/scoreset',
+      name: 'score-details',
+      component: () => import('../views/score/ScorePage.vue')
+    },
+    {
       path: '/maps/artists/:id',
       name: 'featured-artist',
       component: () => import('../views/fa/FeaturedArtist.vue')
